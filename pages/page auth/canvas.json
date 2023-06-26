@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 500,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -21,8 +21,10 @@
           "canExtend": true,
           "version": 80,
           "minHeight": 1292,
+          "useAutoLayout": true,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -34,8 +36,8 @@
               "isCanvas": true,
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
-              "topRow": 17,
-              "bottomRow": 50,
+              "topRow": 0,
+              "bottomRow": 32.73125,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -56,14 +58,14 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
-                  "bottomRow": 290,
+                  "bottomRow": 287.3125,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 410,
+                  "minHeight": 287.3125,
                   "mobileRightColumn": 330.75,
                   "useAutoLayout": true,
                   "parentColumnSpace": 1,
@@ -83,7 +85,7 @@
                         "group"
                       ],
                       "topRow": 0,
-                      "bottomRow": 27,
+                      "bottomRow": 26.73125,
                       "parentRowSpace": 10,
                       "type": "FORM_WIDGET",
                       "hideCard": false,
@@ -104,12 +106,12 @@
                           "widgetName": "Canvas3Copy",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 270,
+                          "bottomRow": 267.3125,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
-                          "minHeight": 230,
+                          "minHeight": 231.31250000000006,
                           "mobileRightColumn": 173.37890625,
                           "useAutoLayout": true,
                           "parentColumnSpace": 1,
@@ -153,7 +155,7 @@
                               "key": "fmg3ki9yz7",
                               "flexVerticalAlignment": "end",
                               "isDeprecated": false,
-                              "rightColumn": 47.437233134073445,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "yc49gf45el",
@@ -203,7 +205,7 @@
                               "version": 2,
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "alignment": "center",
+                              "alignment": "start",
                               "mobileBottomRow": 15,
                               "widgetName": "email_si",
                               "displayName": "Input",
@@ -269,7 +271,7 @@
                               "version": 2,
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "alignment": "center",
+                              "alignment": "start",
                               "mobileBottomRow": 25,
                               "widgetName": "password_si",
                               "displayName": "Input",
@@ -310,6 +312,57 @@
                               "resetFormOnClick": true,
                               "boxShadow": "none",
                               "mobileBottomRow": 37,
+                              "widgetName": "Button2Copy",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 20.931250000000002,
+                              "bottomRow": 24.731250000000003,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "mobileRightColumn": 46,
+                              "animateLoading": true,
+                              "leftColumn": 50.88300597779675,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "Reset",
+                              "isDisabled": false,
+                              "key": "gdevve5cbn",
+                              "flexVerticalAlignment": "end",
+                              "isDeprecated": false,
+                              "rightColumn": 57.44150298889837,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "4or33r429w",
+                              "minWidth": 120,
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "2889xd8y79",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "mobileTopRow": 33,
+                              "responsiveBehavior": "hug",
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "mobileLeftColumn": 30,
+                              "buttonVariant": "SECONDARY",
+                              "placement": "CENTER",
+                              "alignment": "end"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "boxShadow": "none",
+                              "mobileBottomRow": 37,
                               "widgetName": "Button1Copy",
                               "onClick": "{{JSObject1.signIn();}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -331,7 +384,7 @@
                                   "key": "onClick"
                                 }
                               ],
-                              "leftColumn": 57.605328892589505,
+                              "leftColumn": 57.44150298889837,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -345,7 +398,7 @@
                               "key": "gdevve5cbn",
                               "flexVerticalAlignment": "end",
                               "isDeprecated": false,
-                              "rightColumn": 64.16382590369113,
+                              "rightColumn": 64,
                               "isDefaultClickDisabled": true,
                               "widgetId": "0tt4eisvla",
                               "minWidth": 120,
@@ -362,58 +415,7 @@
                               "mobileLeftColumn": 46,
                               "buttonVariant": "PRIMARY",
                               "placement": "CENTER",
-                              "alignment": "start"
-                            },
-                            {
-                              "resetFormOnClick": true,
-                              "boxShadow": "none",
-                              "mobileBottomRow": 37,
-                              "widgetName": "Button2Copy",
-                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "displayName": "Button",
-                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-                              "searchTags": [
-                                "click",
-                                "submit"
-                              ],
-                              "topRow": 20.931250000000002,
-                              "bottomRow": 24.731250000000003,
-                              "type": "BUTTON_WIDGET",
-                              "hideCard": false,
-                              "mobileRightColumn": 46,
-                              "animateLoading": true,
-                              "leftColumn": 51.210657785179016,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "buttonColor"
-                                },
-                                {
-                                  "key": "borderRadius"
-                                }
-                              ],
-                              "text": "Reset",
-                              "isDisabled": false,
-                              "key": "gdevve5cbn",
-                              "flexVerticalAlignment": "end",
-                              "isDeprecated": false,
-                              "rightColumn": 57.76915479628064,
-                              "isDefaultClickDisabled": true,
-                              "widgetId": "4or33r429w",
-                              "minWidth": 120,
-                              "isVisible": true,
-                              "recaptchaType": "V3",
-                              "version": 1,
-                              "parentId": "2889xd8y79",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "mobileTopRow": 33,
-                              "responsiveBehavior": "hug",
-                              "disabledWhenInvalid": false,
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "mobileLeftColumn": 30,
-                              "buttonVariant": "SECONDARY",
-                              "placement": "CENTER",
-                              "alignment": "start"
+                              "alignment": "end"
                             }
                           ],
                           "positioning": "vertical",
@@ -445,7 +447,7 @@
                               "children": [
                                 {
                                   "id": "wv6c56t47q",
-                                  "align": "center"
+                                  "align": "start"
                                 }
                               ]
                             },
@@ -453,19 +455,19 @@
                               "children": [
                                 {
                                   "id": "th4t5qucyp",
-                                  "align": "center"
+                                  "align": "start"
                                 }
                               ]
                             },
                             {
                               "children": [
                                 {
-                                  "id": "0tt4eisvla",
-                                  "align": "start"
+                                  "id": "4or33r429w",
+                                  "align": "end"
                                 },
                                 {
-                                  "id": "4or33r429w",
-                                  "align": "start"
+                                  "id": "0tt4eisvla",
+                                  "align": "end"
                                 }
                               ]
                             }
@@ -530,14 +532,14 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 350,
+                  "bottomRow": 365.96875,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 430,
+                  "minHeight": 365.96875,
                   "mobileRightColumn": 330.75,
                   "useAutoLayout": true,
                   "parentColumnSpace": 1,
@@ -557,7 +559,7 @@
                         "group"
                       ],
                       "topRow": 0,
-                      "bottomRow": 35,
+                      "bottomRow": 34.596875,
                       "parentRowSpace": 10,
                       "type": "FORM_WIDGET",
                       "hideCard": false,
@@ -578,12 +580,12 @@
                           "widgetName": "Canvas3",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 350,
+                          "bottomRow": 345.96875,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
-                          "minHeight": 310,
+                          "minHeight": 297.96875,
                           "mobileRightColumn": 173.37890625,
                           "useAutoLayout": true,
                           "parentColumnSpace": 1,
@@ -627,7 +629,7 @@
                               "key": "fmg3ki9yz7",
                               "flexVerticalAlignment": "end",
                               "isDeprecated": false,
-                              "rightColumn": 49.5200683176772,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "1d7dbtjhjx",
@@ -677,7 +679,7 @@
                               "version": 2,
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "alignment": "center",
+                              "alignment": "start",
                               "mobileBottomRow": 15,
                               "widgetName": "email_su",
                               "displayName": "Input",
@@ -743,7 +745,7 @@
                               "version": 2,
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "alignment": "center",
+                              "alignment": "start",
                               "mobileBottomRow": 25,
                               "widgetName": "password_su",
                               "displayName": "Input",
@@ -813,7 +815,7 @@
                               "version": 2,
                               "isLoading": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "alignment": "center",
+                              "alignment": "start",
                               "mobileBottomRow": 25,
                               "widgetName": "password2_su",
                               "displayName": "Input",
@@ -868,7 +870,7 @@
                               "hideCard": false,
                               "mobileRightColumn": 46,
                               "animateLoading": true,
-                              "leftColumn": 51.210657785179016,
+                              "leftColumn": 50.88300597779675,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -882,7 +884,7 @@
                               "key": "gdevve5cbn",
                               "flexVerticalAlignment": "end",
                               "isDeprecated": false,
-                              "rightColumn": 57.76915479628064,
+                              "rightColumn": 57.44150298889837,
                               "isDefaultClickDisabled": true,
                               "widgetId": "c20517l1td",
                               "minWidth": 120,
@@ -899,7 +901,7 @@
                               "mobileLeftColumn": 30,
                               "buttonVariant": "SECONDARY",
                               "placement": "CENTER",
-                              "alignment": "center"
+                              "alignment": "end"
                             },
                             {
                               "resetFormOnClick": true,
@@ -925,7 +927,7 @@
                                   "key": "onClick"
                                 }
                               ],
-                              "leftColumn": 57.605328892589505,
+                              "leftColumn": 57.44150298889837,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -939,7 +941,7 @@
                               "key": "gdevve5cbn",
                               "flexVerticalAlignment": "end",
                               "isDeprecated": false,
-                              "rightColumn": 64.16382590369113,
+                              "rightColumn": 64,
                               "isDefaultClickDisabled": true,
                               "widgetId": "852e5u4a88",
                               "minWidth": 120,
@@ -956,7 +958,7 @@
                               "mobileLeftColumn": 46,
                               "buttonVariant": "PRIMARY",
                               "placement": "CENTER",
-                              "alignment": "center"
+                              "alignment": "end"
                             }
                           ],
                           "positioning": "vertical",
@@ -988,7 +990,7 @@
                               "children": [
                                 {
                                   "id": "i1mc6j7bkh",
-                                  "align": "center"
+                                  "align": "start"
                                 }
                               ]
                             },
@@ -996,7 +998,7 @@
                               "children": [
                                 {
                                   "id": "m0kk55g832",
-                                  "align": "center"
+                                  "align": "start"
                                 }
                               ]
                             },
@@ -1004,7 +1006,7 @@
                               "children": [
                                 {
                                   "id": "rjxifwrcpo",
-                                  "align": "center"
+                                  "align": "start"
                                 }
                               ]
                             },
@@ -1012,11 +1014,11 @@
                               "children": [
                                 {
                                   "id": "c20517l1td",
-                                  "align": "center"
+                                  "align": "end"
                                 },
                                 {
                                   "id": "852e5u4a88",
-                                  "align": "center"
+                                  "align": "end"
                                 }
                               ]
                             }
@@ -1119,16 +1121,17 @@
               "mobileLeftColumn": 16,
               "maxDynamicHeight": 9000,
               "originalBottomRow": 50,
-              "alignment": "center",
+              "alignment": "start",
               "minDynamicHeight": 15
             }
           ],
+          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
                   "id": "fo2a9er2z5",
-                  "align": "center"
+                  "align": "start"
                 }
               ]
             }

@@ -13,4 +13,12 @@ export default {
 		const token = appsmith.store.token;
 		return jsonwebtoken.decode(token, 'secret');
 	},
+	downloadPDF: async () => {
+    let data = Tabs1.selectedTab
+    const blob = new Blob([data], {type: 'application/pdf'});
+    const url = URL.createObjectURL(blob);
+    await download(url, "Данные сотрудника.pdf", "application/pdf")
+}
+
+
 }
