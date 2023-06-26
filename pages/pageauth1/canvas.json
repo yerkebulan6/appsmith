@@ -36,7 +36,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.8a93874870bccee17fbcd02b950c3bcd.svg",
               "topRow": 0,
-              "bottomRow": 43.599999999999994,
+              "bottomRow": 43.265625,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -63,7 +63,7 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
-                  "bottomRow": 395.99999999999994,
+                  "bottomRow": 392.65625,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -96,7 +96,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 18.1875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 30.5,
+                      "leftColumn": 30.944765045342127,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -106,7 +106,7 @@
                       "key": "au5rdsrbxv",
                       "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 33.5,
+                      "rightColumn": 33.05523495465788,
                       "iconName": "lock",
                       "widgetId": "16f54s9b93",
                       "minWidth": 50,
@@ -159,7 +159,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 12.2,
+                      "bottomRow": 11.865625000000001,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -227,7 +227,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 172,
                       "enableRotation": false,
-                      "alignment": "end"
+                      "alignment": "start"
                     },
                     {
                       "boxShadow": "none",
@@ -268,7 +268,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 32.4,
+                      "bottomRow": 32.065625,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -307,8 +307,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 33.599999999999994,
-                      "bottomRow": 37.599999999999994,
+                      "topRow": 33.265625,
+                      "bottomRow": 37.265625,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -316,7 +316,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.847412109375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 32,
+                      "leftColumn": 51.33718054410552,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -330,7 +330,7 @@
                       "key": "klf0wxlyph",
                       "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 48,
+                      "rightColumn": 57.66859027205276,
                       "isDefaultClickDisabled": true,
                       "widgetId": "3ntylrt8m6",
                       "minWidth": 120,
@@ -362,8 +362,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 33.599999999999994,
-                      "bottomRow": 37.599999999999994,
+                      "topRow": 33.265625,
+                      "bottomRow": 37.265625,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -375,7 +375,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 48,
+                      "leftColumn": 57.66859027205276,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -443,7 +443,7 @@
                         },
                         {
                           "id": "k4glw7tu96",
-                          "align": "end"
+                          "align": "start"
                         }
                       ]
                     },
@@ -474,7 +474,7 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 478,
+                  "bottomRow": 458,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -507,7 +507,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 18.1875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 30.5,
+                      "leftColumn": 29.58490566037736,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -517,7 +517,7 @@
                       "key": "au5rdsrbxv",
                       "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 33.5,
+                      "rightColumn": 34.41509433962264,
                       "iconName": "lock",
                       "widgetId": "93c434alq1",
                       "minWidth": 50,
@@ -638,7 +638,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 172,
                       "enableRotation": false,
-                      "alignment": "end"
+                      "alignment": "start"
                     },
                     {
                       "boxShadow": "none",
@@ -924,7 +924,7 @@
                         },
                         {
                           "id": "i01a3ys8qb",
-                          "align": "end"
+                          "align": "start"
                         }
                       ]
                     },
@@ -999,7 +999,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 14,
               "maxDynamicHeight": 9000,
-              "alignment": "center",
+              "alignment": "start",
               "minDynamicHeight": 15
             }
           ],
@@ -1009,7 +1009,7 @@
               "children": [
                 {
                   "id": "usfsslssa7",
-                  "align": "center"
+                  "align": "start"
                 }
               ]
             }
