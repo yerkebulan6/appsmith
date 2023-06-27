@@ -4364,7 +4364,7 @@
                 "notification"
               ],
               "topRow": 235.85937500000006,
-              "bottomRow": 330.4593750000001,
+              "bottomRow": 352.3843750000001,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
@@ -4385,7 +4385,7 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 940,
+                  "bottomRow": 1160,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -4434,7 +4434,7 @@
                       "key": "rckicnzn5s",
                       "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 60.83168316831683,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "smmj3kuxah",
@@ -4473,7 +4473,7 @@
                       "hideCard": false,
                       "mobileRightColumn": 64,
                       "animateLoading": true,
-                      "leftColumn": 58,
+                      "leftColumn": 60.83168316831683,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -4536,7 +4536,7 @@
                       "image": "{{Table1.selectedRow.image_url}}",
                       "isDeprecated": false,
                       "rightColumn": 22.178217821782177,
-                      "objectFit": "cover",
+                      "objectFit": "contain",
                       "widgetId": "b4b10zdpah",
                       "isVisible": true,
                       "version": 1,
@@ -4555,12 +4555,80 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 5.2,
+                      "topRow": 42.13125,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
                       "resetOnSubmit": true,
-                      "leftColumn": 22.178217821782177,
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "flexVerticalAlignment": "end",
+                      "isRequired": false,
+                      "dynamicHeight": "FIXED",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "isVisible": true,
+                      "version": 2,
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "alignment": "center",
+                      "mobileBottomRow": 21,
+                      "widgetName": "Input17",
+                      "displayName": "Input",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "bottomRow": 48.796875,
+                      "parentRowSpace": 10,
+                      "autoFocus": false,
+                      "hideCard": false,
+                      "mobileRightColumn": 34,
+                      "parentColumnSpace": 12.59375,
+                      "dynamicTriggerPathList": [],
+                      "labelPosition": "Top",
+                      "key": "tndoenig1f",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "ko382jd2vc",
+                      "minWidth": 450,
+                      "label": "Phone",
+                      "parentId": "a2cic6qbcj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "mobileTopRow": 14,
+                      "responsiveBehavior": "fill",
+                      "mobileLeftColumn": 14,
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Table1.selectedRow.Телефон}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
+                      "topRow": 34.265625,
+                      "labelWidth": 5,
+                      "type": "INPUT_WIDGET_V2",
+                      "animateLoading": true,
+                      "resetOnSubmit": true,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -4585,8 +4653,8 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "alignment": "start",
-                      "mobileBottomRow": 13,
-                      "widgetName": "Input16",
+                      "mobileBottomRow": 21,
+                      "widgetName": "Input19",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
@@ -4594,93 +4662,30 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 12.2,
+                      "bottomRow": 40.93125,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
-                      "mobileRightColumn": 34,
+                      "mobileRightColumn": 55,
                       "parentColumnSpace": 12.59375,
                       "dynamicTriggerPathList": [],
                       "labelPosition": "Top",
                       "key": "tndoenig1f",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 43.089108910891085,
-                      "widgetId": "xjtwt7up0e",
-                      "minWidth": 450,
-                      "label": "Full Name",
-                      "parentId": "a2cic6qbcj",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
-                      "mobileTopRow": 6,
-                      "responsiveBehavior": "fill",
-                      "mobileLeftColumn": 14,
-                      "maxDynamicHeight": 9000,
-                      "iconAlign": "left",
-                      "defaultText": "{{Table1.selectedRow.Full_Name}}",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "iconSVG": "/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
-                      "labelText": "Gender",
-                      "topRow": 5.2,
-                      "labelWidth": 5,
-                      "type": "SELECT_WIDGET",
-                      "serverSideFiltering": false,
-                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.selectedRow.Пол))(Select4.options, Select4.serverSideFiltering) }}",
-                      "animateLoading": true,
-                      "leftColumn": 43.089108910891085,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "defaultOptionValue"
-                        }
-                      ],
-                      "options": "[\n  {\n    \"label\": \"Мужчина\",\n    \"value\": \"Мужчина\"\n  },\n  {\n    \"label\": \"Женщина\",\n    \"value\": \"Женщина\"\n  }\n]",
-                      "placeholderText": "Select option",
-                      "isDisabled": false,
-                      "flexVerticalAlignment": "end",
-                      "isRequired": false,
-                      "dynamicHeight": "FIXED",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "version": 1,
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "alignment": "start",
-                      "mobileBottomRow": 13,
-                      "widgetName": "Select4",
-                      "isFilterable": false,
-                      "displayName": "Select",
-                      "searchTags": [
-                        "dropdown"
-                      ],
-                      "bottomRow": 12.2,
-                      "parentRowSpace": 10,
-                      "hideCard": false,
-                      "mobileRightColumn": 55,
-                      "parentColumnSpace": 12.59375,
-                      "dynamicTriggerPathList": [],
-                      "labelPosition": "Top",
-                      "key": "5xlbim02c0",
-                      "labelTextSize": "0.875rem",
-                      "isDeprecated": false,
                       "rightColumn": 64,
-                      "widgetId": "gux5824qld",
+                      "widgetId": "pilrx8yzrq",
                       "minWidth": 450,
+                      "label": "Address",
                       "parentId": "a2cic6qbcj",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
-                      "mobileTopRow": 6,
+                      "mobileTopRow": 14,
                       "responsiveBehavior": "fill",
                       "mobileLeftColumn": 35,
                       "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Table1.selectedRow.Адрес}}",
                       "minDynamicHeight": 4
                     },
                     {
@@ -4715,9 +4720,9 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "alignment": "center",
-                      "mobileBottomRow": 21,
-                      "widgetName": "Input17",
+                      "alignment": "start",
+                      "mobileBottomRow": 13,
+                      "widgetName": "Input16",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
@@ -4725,7 +4730,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 33.4,
+                      "bottomRow": 33.065625,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -4736,30 +4741,32 @@
                       "key": "tndoenig1f",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 32,
-                      "widgetId": "ko382jd2vc",
+                      "rightColumn": 64,
+                      "widgetId": "xjtwt7up0e",
                       "minWidth": 450,
-                      "label": "Phone",
+                      "label": "Full Name",
                       "parentId": "a2cic6qbcj",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
-                      "mobileTopRow": 14,
+                      "mobileTopRow": 6,
                       "responsiveBehavior": "fill",
                       "mobileLeftColumn": 14,
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "{{Table1.selectedRow.Телефон}}",
+                      "defaultText": "{{Table1.selectedRow.Full_Name}}",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 26.4,
+                      "iconSVG": "/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
+                      "labelText": "Gender",
+                      "topRow": 42.13125,
                       "labelWidth": 5,
-                      "type": "INPUT_WIDGET_V2",
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( Table1.selectedRow.Пол))(Select4.options, Select4.serverSideFiltering) }}",
                       "animateLoading": true,
-                      "resetOnSubmit": true,
-                      "leftColumn": 32,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -4768,61 +4775,54 @@
                           "key": "borderRadius"
                         },
                         {
-                          "key": "defaultText"
+                          "key": "defaultOptionValue"
                         }
                       ],
-                      "labelStyle": "",
-                      "inputType": "TEXT",
+                      "options": "[\n  {\n    \"label\": \"Мужчина\",\n    \"value\": \"Мужчина\"\n  },\n  {\n    \"label\": \"Женщина\",\n    \"value\": \"Женщина\"\n  }\n]",
+                      "placeholderText": "Select option",
                       "isDisabled": false,
                       "flexVerticalAlignment": "end",
                       "isRequired": false,
                       "dynamicHeight": "FIXED",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "showStepArrows": false,
                       "isVisible": true,
-                      "version": 2,
+                      "version": 1,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "alignment": "center",
-                      "mobileBottomRow": 21,
-                      "widgetName": "Input19",
-                      "displayName": "Input",
+                      "mobileBottomRow": 13,
+                      "widgetName": "Select4",
+                      "isFilterable": false,
+                      "displayName": "Select",
                       "searchTags": [
-                        "form",
-                        "text input",
-                        "number",
-                        "textarea"
+                        "dropdown"
                       ],
-                      "bottomRow": 33.4,
+                      "bottomRow": 48.73125,
                       "parentRowSpace": 10,
-                      "autoFocus": false,
                       "hideCard": false,
                       "mobileRightColumn": 55,
                       "parentColumnSpace": 12.59375,
                       "dynamicTriggerPathList": [],
                       "labelPosition": "Top",
-                      "key": "tndoenig1f",
+                      "key": "5xlbim02c0",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "pilrx8yzrq",
+                      "rightColumn": 32,
+                      "widgetId": "gux5824qld",
                       "minWidth": 450,
-                      "label": "Address",
                       "parentId": "a2cic6qbcj",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
-                      "mobileTopRow": 14,
+                      "mobileTopRow": 6,
                       "responsiveBehavior": "fill",
                       "mobileLeftColumn": 35,
                       "maxDynamicHeight": 9000,
-                      "iconAlign": "left",
-                      "defaultText": "{{Table1.selectedRow.Адрес}}",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 34.599999999999994,
+                      "topRow": 49.996875,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -4861,7 +4861,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 41.599999999999994,
+                      "bottomRow": 56.6625,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -4891,7 +4891,7 @@
                       "boxShadow": "none",
                       "dateFormat": "LL",
                       "iconSVG": "/static/media/icon.c8ac755fdc7a44c32deab2390f007005.svg",
-                      "topRow": 34.599999999999994,
+                      "topRow": 49.996875,
                       "labelWidth": 5,
                       "type": "DATE_PICKER_WIDGET2",
                       "animateLoading": true,
@@ -4932,7 +4932,7 @@
                       "searchTags": [
                         "calendar"
                       ],
-                      "bottomRow": 41.599999999999994,
+                      "bottomRow": 56.596875000000004,
                       "shortcuts": false,
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -4968,8 +4968,8 @@
                       "searchTags": [
                         "line"
                       ],
-                      "topRow": 42.8,
-                      "bottomRow": 46.8,
+                      "topRow": 57.862500000000004,
+                      "bottomRow": 61.862500000000004,
                       "parentRowSpace": 10,
                       "type": "DIVIDER_WIDGET",
                       "capType": "nc",
@@ -5000,9 +5000,55 @@
                       "alignment": "center"
                     },
                     {
+                      "mobileWidthInPercentage": 0.1775390625,
+                      "boxShadow": "none",
+                      "mobileBottomRow": 49,
+                      "widgetName": "Image6",
+                      "widthInPercentage": 0.1775390625,
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+                      "topRow": 63.06250000000001,
+                      "bottomRow": 83.0625,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "mobileRightColumn": 45,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.59375,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "xq22z1zkcy",
+                      "flexVerticalAlignment": "end",
+                      "image": "https://media.istockphoto.com/id/952649414/vector/blue-graphic-employee-id-card-template.jpg?s=612x612&w=0&k=20&c=0-zPesGWis_cLqo0FC451V9xEA1mpXZUDpddWT64KzQ=",
+                      "isDeprecated": false,
+                      "rightColumn": 22.178217821782177,
+                      "objectFit": "cover",
+                      "widgetId": "2qgiqbfoa3",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "a2cic6qbcj",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 37,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "responsiveBehavior": "hug",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileLeftColumn": 33,
+                      "enableRotation": false,
+                      "alignment": "start"
+                    },
+                    {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 48,
+                      "topRow": 84.2625,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -5041,7 +5087,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 55,
+                      "bottomRow": 90.928125,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -5052,7 +5098,7 @@
                       "key": "tndoenig1f",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 41.82178217821782,
+                      "rightColumn": 64,
                       "widgetId": "x36tvvu1u0",
                       "minWidth": 450,
                       "label": "Company",
@@ -5068,55 +5114,9 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "mobileWidthInPercentage": 0.1775390625,
-                      "boxShadow": "none",
-                      "mobileBottomRow": 49,
-                      "widgetName": "Image6",
-                      "widthInPercentage": 0.1775390625,
-                      "displayName": "Image",
-                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
-                      "topRow": 48,
-                      "bottomRow": 68,
-                      "parentRowSpace": 10,
-                      "type": "IMAGE_WIDGET",
-                      "hideCard": false,
-                      "mobileRightColumn": 45,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.59375,
-                      "dynamicTriggerPathList": [],
-                      "imageShape": "RECTANGLE",
-                      "leftColumn": 41.82178217821783,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
-                      "key": "xq22z1zkcy",
-                      "flexVerticalAlignment": "end",
-                      "image": "https://media.istockphoto.com/id/952649414/vector/blue-graphic-employee-id-card-template.jpg?s=612x612&w=0&k=20&c=0-zPesGWis_cLqo0FC451V9xEA1mpXZUDpddWT64KzQ=",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "objectFit": "cover",
-                      "widgetId": "2qgiqbfoa3",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "a2cic6qbcj",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "mobileTopRow": 37,
-                      "maxZoomLevel": 1,
-                      "enableDownload": false,
-                      "responsiveBehavior": "hug",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "mobileLeftColumn": 33,
-                      "enableRotation": false,
-                      "alignment": "center"
-                    },
-                    {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 69.2,
+                      "topRow": 92.128125,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -5155,7 +5155,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 76.2,
+                      "bottomRow": 98.79375,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -5184,7 +5184,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 77.4,
+                      "topRow": 99.99375,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -5223,7 +5223,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 84.4,
+                      "bottomRow": 106.65937500000001,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -5252,7 +5252,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
-                      "topRow": 85.60000000000001,
+                      "topRow": 107.85937500000001,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
@@ -5291,7 +5291,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 92.60000000000001,
+                      "bottomRow": 114.52500000000002,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -5302,7 +5302,7 @@
                       "key": "tndoenig1f",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 32,
+                      "rightColumn": 44.99009900990099,
                       "widgetId": "mo4e65vih6",
                       "minWidth": 450,
                       "label": "Work experience",
@@ -5330,13 +5330,13 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 85.60000000000001,
-                      "bottomRow": 89.60000000000001,
+                      "topRow": 107.85937500000001,
+                      "bottomRow": 111.85937500000001,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "mobileRightColumn": 47,
                       "animateLoading": true,
-                      "leftColumn": 32,
+                      "leftColumn": 44.99009900990099,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -5350,7 +5350,7 @@
                       "key": "v0xmczqoif",
                       "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 48,
+                      "rightColumn": 54.495049504950494,
                       "isDefaultClickDisabled": true,
                       "widgetId": "c6j9ukmb3a",
                       "buttonStyle": "PRIMARY",
@@ -5383,8 +5383,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 85.60000000000001,
-                      "bottomRow": 89.60000000000001,
+                      "topRow": 107.85937500000001,
+                      "bottomRow": 111.85937500000001,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "mobileRightColumn": 63,
@@ -5394,7 +5394,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 48,
+                      "leftColumn": 54.495049504950494,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -5463,13 +5463,13 @@
                         {
                           "id": "b4b10zdpah",
                           "align": "start"
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
                         {
                           "id": "xjtwt7up0e",
-                          "align": "start"
-                        },
-                        {
-                          "id": "gux5824qld",
                           "align": "start"
                         }
                       ]
@@ -5477,11 +5477,19 @@
                     {
                       "children": [
                         {
-                          "id": "ko382jd2vc",
+                          "id": "pilrx8yzrq",
+                          "align": "start"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": "gux5824qld",
                           "align": "center"
                         },
                         {
-                          "id": "pilrx8yzrq",
+                          "id": "ko382jd2vc",
                           "align": "center"
                         }
                       ]
@@ -5509,12 +5517,16 @@
                     {
                       "children": [
                         {
+                          "id": "2qgiqbfoa3",
+                          "align": "start"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
                           "id": "x36tvvu1u0",
                           "align": "start"
-                        },
-                        {
-                          "id": "2qgiqbfoa3",
-                          "align": "center"
                         }
                       ]
                     },
@@ -5554,7 +5566,7 @@
                 }
               ],
               "key": "lxlcsrgpdi",
-              "height": 948.0000000000001,
+              "height": 1167.2500000000002,
               "isDeprecated": false,
               "rightColumn": 32,
               "detachFromLayout": true,
