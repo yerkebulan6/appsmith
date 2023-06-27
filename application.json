@@ -22,7 +22,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "AUTO"
+      "type": "FIXED"
     },
     "navigationSetting": {
       "showNavbar": true,
@@ -39,7 +39,7 @@
   "color": "#E3DEFF",
   "icon": "uk-pounds",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

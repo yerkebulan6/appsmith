@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO teachers.users\n  (email, password)\nVALUES\n  (\n    '{{ this.params.email }}',\n    '{{ this.params.pHash }}'\n  );",
+      "body": "INSERT INTO teachers.users\n  (email, password, first_name, last_name)\nVALUES\n  (\n    '{{ this.params.email }}',\n    '{{ this.params.pHash }}',\n\t\t'{{ Input2.text }}',\n\t\t'{{ Input1.text }}'\n  );",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,6 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      " Input1.text ",
+      " Input2.text ",
       " this.params.email ",
       " this.params.pHash "
     ],

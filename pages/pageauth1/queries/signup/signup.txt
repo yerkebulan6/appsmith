@@ -1,7 +1,9 @@
 INSERT INTO teachers.users
-  (email, password)
+  (email, password, first_name, last_name)
 VALUES
   (
     '{{ this.params.email }}',
-    '{{ this.params.pHash }}'
+    '{{ this.params.pHash }}',
+		'{{ Input2.text }}',
+		'{{ Input1.text }}'
   );
