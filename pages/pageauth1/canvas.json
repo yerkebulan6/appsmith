@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 72,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.8a93874870bccee17fbcd02b950c3bcd.svg",
               "topRow": 0,
-              "bottomRow": 57,
+              "bottomRow": 43.865624999999994,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -63,14 +63,14 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
-                  "bottomRow": 530,
+                  "bottomRow": 398.65624999999994,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 360,
+                  "minHeight": 362.65624999999994,
                   "mobileRightColumn": 445.875,
                   "useAutoLayout": true,
                   "parentColumnSpace": 1,
@@ -149,7 +149,7 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "alignment": "end",
+                      "alignment": "start",
                       "mobileBottomRow": 16,
                       "widgetName": "email_si",
                       "displayName": "Input",
@@ -227,7 +227,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 172,
                       "enableRotation": false,
-                      "alignment": "end"
+                      "alignment": "start"
                     },
                     {
                       "boxShadow": "none",
@@ -439,11 +439,11 @@
                       "children": [
                         {
                           "id": "cvvzw9j5qu",
-                          "align": "end"
+                          "align": "start"
                         },
                         {
                           "id": "k4glw7tu96",
-                          "align": "end"
+                          "align": "start"
                         }
                       ]
                     },
@@ -474,14 +474,14 @@
                   "mobileBottomRow": 150,
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 530,
+                  "bottomRow": 511.28125,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 430,
+                  "minHeight": 439.28124999999994,
                   "mobileRightColumn": 445.875,
                   "useAutoLayout": true,
                   "parentColumnSpace": 1,
@@ -551,6 +551,7 @@
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
+                      "flexVerticalAlignment": "end",
                       "isRequired": false,
                       "dynamicHeight": "FIXED",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -615,6 +616,7 @@
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
+                      "flexVerticalAlignment": "end",
                       "isRequired": false,
                       "dynamicHeight": "FIXED",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1061,7 +1063,7 @@
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
               "rightColumn": 64,
-              "dynamicHeight": "FIXED",
+              "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "usfsslssa7",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "Tab 1",
